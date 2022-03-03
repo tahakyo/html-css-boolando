@@ -13,7 +13,7 @@
     /* max-width: 1200px; */
     width: 80%;
     margin: 3em auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -23,9 +23,10 @@
 }
 
 .product{
-
     display: inline-block;
+    position: relative;
     width: calc((100%/3) - 3px)
+    
 
 }
 
@@ -33,3 +34,23 @@
     width: 100%;
 }
 
+.product .discount{
+    position: absolute;
+    bottom: 10% ; 
+
+}
+
+.bg-red{
+    background-color: red;
+}
+
+
+
+
+/* .product .sostenibilità{
+    position: absolute;
+    bottom: 10%; 
+    
+
+
+} */
