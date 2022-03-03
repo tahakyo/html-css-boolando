@@ -7,7 +7,9 @@
 
 
 /* COMMON */
+.mg-btm2{
 
+}
 
 .container{
     /* max-width: 1200px; */
@@ -20,6 +22,7 @@
 .row{
     width: 100%;
     vertical-align: top;
+    margin-bottom: 2em;
 
 }
 
@@ -38,7 +41,9 @@
 }
 .banner{
     position: absolute;
-    bottom: 10% ; 
+    bottom: 15% ; 
+    color: white;
+    font-size: .7em;
 
 }
 
@@ -63,5 +68,19 @@
 
 .text-desc :nth-child(2){
     font-weight: bold;
+
+}
+.picture1 img:last-of-type{
+    display: none;
+    width: 100%;
+    left: 0;
+    position: absolute;
+
+
+}
+.picture1:hover img:last-of-type{
+    display: inline-block;
+
+    
 
 }
