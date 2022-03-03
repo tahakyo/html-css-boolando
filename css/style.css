@@ -19,23 +19,24 @@
 
 .row{
     width: 100%;
+    vertical-align: top;
 
 }
 
 .product{
     display: inline-block;
-    position: relative;
     width: calc((100%/3) - 3px);
-    vertical-align: top;
-    
+  
+}
 
+.product {
+    position: relative;
 }
 
 .product :first-child{
     width: 100%;
 }
-
-.product .banner{
+.banner{
     position: absolute;
     bottom: 10% ; 
 
@@ -56,7 +57,11 @@
     right: 0;
     padding: 7px;
 }
+.text-desc{
+    font-size: .5em;
+}
 
+.text-desc :nth-child(2){
+    font-weight: bold;
 
-
-
+}
