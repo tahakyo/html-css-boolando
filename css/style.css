@@ -25,7 +25,8 @@
 .product{
     display: inline-block;
     position: relative;
-    width: calc((100%/3) - 3px)
+    width: calc((100%/3) - 3px);
+    vertical-align: top;
     
 
 }
@@ -34,7 +35,7 @@
     width: 100%;
 }
 
-.product .discount{
+.product .banner{
     position: absolute;
     bottom: 10% ; 
 
@@ -44,13 +45,18 @@
     background-color: red;
 }
 
+.bg-green{
+    background-color: green;
+}
 
-
-
-/* .product .sostenibilità{
+.heart{
+    background-color: white;
     position: absolute;
-    bottom: 10%; 
-    
+    top: 5%;
+    right: 0;
+    padding: 7px;
+}
 
 
-} */
+
+
